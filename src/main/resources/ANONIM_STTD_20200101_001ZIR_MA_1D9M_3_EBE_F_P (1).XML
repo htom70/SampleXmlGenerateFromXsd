@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="ISO-8859-2"?>
+<ErsteBankStatements>
+   <Setting>
+      <BANK_NAME>ERSTE BANK HUNGARY ZRT.</BANK_NAME>
+      <BANK_POSTALCODE>1138</BANK_POSTALCODE>
+      <BANK_CITY>Budapest</BANK_CITY>
+      <BANK_ADDRESS>Népfürdő u. 24-26.</BANK_ADDRESS>
+      <TAXNR>10197879-4-44</TAXNR>
+      <VATGROUPNR>17781042-5-44</VATGROUPNR>
+      <EUVATGROUPNR>HU17781042</EUVATGROUPNR>
+      <FIRMCODE>01-10-041054</FIRMCODE>
+      <INTERNETADDRESS>www.erstebank.hu</INTERNETADDRESS>
+      <SWIFTCODE>GIBAHUHB</SWIFTCODE>
+      <PRIVATE_TEL>06 1 298 0222</PRIVATE_TEL>
+      <FIRM_TEL>06 1 298 0223</FIRM_TEL>
+      <EMAILADDRESS>erste@erstebank.hu</EMAILADDRESS>
+   </Setting>
+   <Statement>
+      <STMT_SEQ>281696981</STMT_SEQ>
+      <Statement_NO>P 2020/71</Statement_NO>
+      <MarketingAbove></MarketingAbove>
+      <MarketingAboveENDE></MarketingAboveENDE>
+      <MarketingBelow1></MarketingBelow1>
+      <MarketingBelow1ENDE></MarketingBelow1ENDE>
+      <MarketingBelow2></MarketingBelow2>
+      <MarketingBelow2ENDE></MarketingBelow2ENDE>
+      <DormantMessage></DormantMessage>
+      <DormantMessageENDE></DormantMessageENDE>
+      <FXTRM_CONTR_MSG></FXTRM_CONTR_MSG>
+      <FXTRM_CONTR_MSGENDE></FXTRM_CONTR_MSGENDE>
+      <ORIGINAL>1</ORIGINAL>
+      <NEXT_COPY>0</NEXT_COPY>
+      <OD_AMTSUM>90.000</OD_AMTSUM>
+      <OUTST_AMTSUM>0</OUTST_AMTSUM>
+      <Account>
+         <ACCT_TYPE>MLB</ACCT_TYPE>
+         <ACCOUNT_NO>11600006-00000000-11111111</ACCOUNT_NO>
+         <ACCT_DESC></ACCT_DESC>
+         <START_BALANCE>527.381</START_BALANCE>
+         <END_BALANCE>450.458</END_BALANCE>
+         <START_DATE>2020.05.22.</START_DATE>
+         <END_DATE>2020.05.22.</END_DATE>
+         <CURRENCY>HUF</CURRENCY>
+         <AVAIL_AMT>494.386</AVAIL_AMT>
+         <AccountName>Erste Szimpla Bankszámla</AccountName>
+         <AccountNameENDE></AccountNameENDE>
+         <TotalDebit>76.923</TotalDebit>
+         <TotalCredit>0</TotalCredit>
+         <TotalRestraintAmtPositive>46.072</TotalRestraintAmtPositive>
+         <TotalRestraintAmtNegative></TotalRestraintAmtNegative>
+         <TotalRestraintAmt>46.072</TotalRestraintAmt>
+         <SUM_TR_TAX_AMT_HUF>(0,00)</SUM_TR_TAX_AMT_HUF>
+         <IBAN_CODE>HU81 1160 0006 0000 0000 1111 1111</IBAN_CODE>
+      </Account>
+      <Client>
+         <CLIENT_NO>Q52580</CLIENT_NO>
+         <ROBINSON>N</ROBINSON>
+         <CLIENTNAME>ügyfel </CLIENTNAME>
+         <CLIENTADDR>1234 város, ÁRPÁD U 43</CLIENTADDR>
+         <CLIENTEMAIL></CLIENTEMAIL>
+         <POST_NAME>ügyfel </POST_NAME>
+         <POST_CITY>város</POST_CITY>
+         <POST_ADDR>ÁRPÁD UTCA 57.</POST_ADDR>
+         <POST_CODE>HU-1234</POST_CODE>
+         <LPOST_CITY>város</LPOST_CITY>
+         <LPOST_ADDR>ÁRPÁD U 43</LPOST_ADDR>
+         <LPOST_CODE>1234</LPOST_CODE>
+         <BRANCH>NYI</BRANCH>
+         <BranchName></BranchName>
+         <BranchCity></BranchCity>
+         <BranchAddr></BranchAddr>
+         <BranchPostalcode></BranchPostalcode>
+         <PDF_PASSW>1987Q52580</PDF_PASSW>
+      </Client>
+      <Transaction>
+         <TR_SEQ>3114803946</TR_SEQ>
+         <TRANS_TYPE>DPTD</TRANS_TYPE>
+         <TRANS_DESC>KÁRTYA HASZNÁLAT</TRANS_DESC>
+         <TRANS_DESCENDE></TRANS_DESCENDE>
+         <TrDescription>
+            <FIELDNO1>73</FIELDNO1>
+            <DescName>Kártyaszám - Tr.időpont</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>123456xxxxxx1234 - 2020.05.15 22:22</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>74</FIELDNO1>
+            <DescName>Terminál - eng.kód  Trtip</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>022P8417 - B14173 - vásár.</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>76</FIELDNO1>
+            <DescName>Elfogadó</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>OTPMOBL*TELEKOM BUDAPEST</DescValue>
+         </TrDescription>
+         <TRANS_DATE>2020.05.22.</TRANS_DATE>
+         <TRANS_FXRATE></TRANS_FXRATE>
+         <EFFECT_DATE>2020.05.22.</EFFECT_DATE>
+         <REFERENCE></REFERENCE>
+         <DEBIT_AMT>-20.919</DEBIT_AMT>
+         <CREDIT_AMT>0</CREDIT_AMT>
+         <BALANCE>506.462</BALANCE>
+         <PREV_BALANCE>527.381</PREV_BALANCE>
+         <TR_TAX_AMT_HUF>(0,00)</TR_TAX_AMT_HUF>
+         <STMT_SEQ>3114803946</STMT_SEQ>
+         <SOURCE>IF</SOURCE>
+      </Transaction>
+      <Transaction>
+         <TR_SEQ>3114803971</TR_SEQ>
+         <TRANS_TYPE>DPTD</TRANS_TYPE>
+         <TRANS_DESC>KÁRTYA HASZNÁLAT</TRANS_DESC>
+         <TRANS_DESCENDE></TRANS_DESCENDE>
+         <TrDescription>
+            <FIELDNO1>73</FIELDNO1>
+            <DescName>Kártyaszám - Tr.időpont</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>123456xxxxxx1234 - 2020.05.15 12:03</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>74</FIELDNO1>
+            <DescName>Terminál - eng.kód  Trtip</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>01101384 - 417584 - vásár.</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>76</FIELDNO1>
+            <DescName>Elfogadó</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>POSTA3571 TISZAVASVARI</DescValue>
+         </TrDescription>
+         <TRANS_DATE>2020.05.22.</TRANS_DATE>
+         <TRANS_FXRATE></TRANS_FXRATE>
+         <EFFECT_DATE>2020.05.22.</EFFECT_DATE>
+         <REFERENCE></REFERENCE>
+         <DEBIT_AMT>-45.684</DEBIT_AMT>
+         <CREDIT_AMT>0</CREDIT_AMT>
+         <BALANCE>460.778</BALANCE>
+         <PREV_BALANCE>506.462</PREV_BALANCE>
+         <TR_TAX_AMT_HUF>(0,00)</TR_TAX_AMT_HUF>
+         <STMT_SEQ>3114803971</STMT_SEQ>
+         <SOURCE>IF</SOURCE>
+      </Transaction>
+      <Transaction>
+         <TR_SEQ>3115476205</TR_SEQ>
+         <TRANS_TYPE>DPTD</TRANS_TYPE>
+         <TRANS_DESC>KÁRTYA HASZNÁLAT</TRANS_DESC>
+         <TRANS_DESCENDE></TRANS_DESCENDE>
+         <TrDescription>
+            <FIELDNO1>73</FIELDNO1>
+            <DescName>Kártyaszám - Tr.időpont</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>123456xxxxxx1234 - 2020.05.16 12:50</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>74</FIELDNO1>
+            <DescName>Terminál - eng.kód  Trtip</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>HH313703 - 821514 - vásár.</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>76</FIELDNO1>
+            <DescName>Elfogadó</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>LIDL ARUHAZ 013 HAJDUNANA</DescValue>
+         </TrDescription>
+         <TRANS_DATE>2020.05.22.</TRANS_DATE>
+         <TRANS_FXRATE></TRANS_FXRATE>
+         <EFFECT_DATE>2020.05.22.</EFFECT_DATE>
+         <REFERENCE></REFERENCE>
+         <DEBIT_AMT>-10.320</DEBIT_AMT>
+         <CREDIT_AMT>0</CREDIT_AMT>
+         <BALANCE>450.458</BALANCE>
+         <PREV_BALANCE>460.778</PREV_BALANCE>
+         <TR_TAX_AMT_HUF>(0,00)</TR_TAX_AMT_HUF>
+         <STMT_SEQ>3115476205</STMT_SEQ>
+         <SOURCE>IF</SOURCE>
+      </Transaction>
+      <Overdraft>
+         <OD_AMT>90.000</OD_AMT>
+         <OD_TYPE>SFH</OD_TYPE>
+         <OD_DESC>SPEC.LAK. FSZLAHITEL</OD_DESC>
+         <OD_DESCENDE></OD_DESCENDE>
+         <OUTST_AMT>0</OUTST_AMT>
+         <EFFECT_DATE>2021.10.12.</EFFECT_DATE>
+         <OD_INTRATE></OD_INTRATE>
+         <OD_INTRATE_ENDE></OD_INTRATE_ENDE>
+      </Overdraft>
+      <OverdraftDesc>
+         <OD_INTDESC>A folyószámla hitel kamata a tárgyhó első napján érvényes kamat mértéket jelöli.
+A legutóbbi tájékoztatáskori folyószámla hitelegyenleg megegyezik jelen bankszámlakivonat bankszámlaforgalmaknál megjelölt negatív előjelű nyitó egyenleggel.
+Hitel lehívási összeg a bankszámlaforgalmak terhelés, illetve egyenleg rovatában negatív előjellel feltüntetett azon összeg, vagy annak azon része, amelyre nem nyújt fedezetet a számla pozitív egyenlege, a hitel lehívásának időpontja a bankszámlaforgalmaknál megjelölt terhelés időpontja.
+Az igénybe vett kölcsön törlesztése a bankszámlára érkező jóváírásokkal automatikusan történik, a hiteltörlesztés időpontja a bankszámlaforgalmaknál jelölt jóváírási időpont.
+Folyószámlahitelhez kapcsolódó hitelkamaton felül felmerült ellenszolgáltatások (díjak, jutalékok, költségek): a bankszámlaforgalmak között terhelt, rendelkezésre tartási jutalék, valamint a késedelmi kamat összege. A késedelmi kamat a Tartozik kamat részeként, a folyószámlahitel kamatával együtt kerül terhelésre.</OD_INTDESC>
+         <OD_INTDESCENDE></OD_INTDESCENDE>
+      </OverdraftDesc>
+      <Restraint>
+         <RESTRAINT_DESC>Moratóriumi összeg zárolása</RESTRAINT_DESC>
+         <RESTRAINT_DESCENDE></RESTRAINT_DESCENDE>
+         <PLEDGED_AMT>46.072</PLEDGED_AMT>
+         <NARRATIVE></NARRATIVE>
+         <START_DATE>2020.03.31.</START_DATE>
+         <END_DATE>2020.12.31.</END_DATE>
+      </Restraint>
+      <Template>
+         <NAME>Erste Brand lakossági és mikro-vállalati folyószámla sablon</NAME>
+         <VERSION>23</VERSION>
+         <IDENTIFIER>201</IDENTIFIER>
+         <FILENAME></FILENAME>
+         <CLTYP>L</CLTYP>
+         <CLTYPE>L</CLTYPE>
+      </Template>
+      <Language>HU</Language>
+      <ReGenNo>0</ReGenNo>
+      <Stmt_Modified>0</Stmt_Modified>
+   </Statement>
+   <Statement>
+      <STMT_SEQ>281694681</STMT_SEQ>
+      <Statement_NO>P 2020/31</Statement_NO>
+      <MarketingAbove></MarketingAbove>
+      <MarketingAboveENDE></MarketingAboveENDE>
+      <MarketingBelow1></MarketingBelow1>
+      <MarketingBelow1ENDE></MarketingBelow1ENDE>
+      <MarketingBelow2></MarketingBelow2>
+      <MarketingBelow2ENDE></MarketingBelow2ENDE>
+      <DormantMessage></DormantMessage>
+      <DormantMessageENDE></DormantMessageENDE>
+      <FXTRM_CONTR_MSG></FXTRM_CONTR_MSG>
+      <FXTRM_CONTR_MSGENDE></FXTRM_CONTR_MSGENDE>
+      <ORIGINAL>1</ORIGINAL>
+      <NEXT_COPY>0</NEXT_COPY>
+      <OD_AMTSUM>0</OD_AMTSUM>
+      <OUTST_AMTSUM>0</OUTST_AMTSUM>
+      <Account>
+         <ACCT_TYPE>MFN</ACCT_TYPE>
+         <ACCOUNT_NO>11600006-00000000-22222222</ACCOUNT_NO>
+         <ACCT_DESC></ACCT_DESC>
+         <START_BALANCE>2.716.207</START_BALANCE>
+         <END_BALANCE>2.710.158</END_BALANCE>
+         <START_DATE>2020.05.22.</START_DATE>
+         <END_DATE>2020.05.22.</END_DATE>
+         <CURRENCY>HUF</CURRENCY>
+         <AVAIL_AMT>2.710.158</AVAIL_AMT>
+         <AccountName>Lakossági folyószámla</AccountName>
+         <AccountNameENDE></AccountNameENDE>
+         <TotalDebit>6.049</TotalDebit>
+         <TotalCredit>0</TotalCredit>
+         <TotalRestraintAmtPositive></TotalRestraintAmtPositive>
+         <TotalRestraintAmtNegative></TotalRestraintAmtNegative>
+         <TotalRestraintAmt></TotalRestraintAmt>
+         <SUM_TR_TAX_AMT_HUF>(0,00)</SUM_TR_TAX_AMT_HUF>
+         <IBAN_CODE>HU93 1160 0006 0000 0000 2222 2222</IBAN_CODE>
+      </Account>
+      <Client>
+         <CLIENT_NO>451103</CLIENT_NO>
+         <ROBINSON>Y</ROBINSON>
+         <CLIENTNAME>ügyfel kettő</CLIENTNAME>
+         <CLIENTADDR>2345 város kettő, KOSSUTH U 61.</CLIENTADDR>
+         <CLIENTEMAIL></CLIENTEMAIL>
+         <POST_NAME>ügyfel kettő</POST_NAME>
+         <POST_CITY>város kettő</POST_CITY>
+         <POST_ADDR>KOSSUTH UTCA 61.</POST_ADDR>
+         <POST_CODE>HU-2345</POST_CODE>
+         <LPOST_CITY>város kettő</LPOST_CITY>
+         <LPOST_ADDR>KOSSUTH U 61.</LPOST_ADDR>
+         <LPOST_CODE>2345</LPOST_CODE>
+         <BRANCH>NKN</BRANCH>
+         <BranchName></BranchName>
+         <BranchCity></BranchCity>
+         <BranchAddr></BranchAddr>
+         <BranchPostalcode></BranchPostalcode>
+         <PDF_PASSW>1977451103</PDF_PASSW>
+      </Client>
+      <Transaction>
+         <TR_SEQ>3114857423</TR_SEQ>
+         <TRANS_TYPE>DPTD</TRANS_TYPE>
+         <TRANS_DESC>KÁRTYA HASZNÁLAT</TRANS_DESC>
+         <TRANS_DESCENDE></TRANS_DESCENDE>
+         <TrDescription>
+            <FIELDNO1>73</FIELDNO1>
+            <DescName>Kártyaszám - Tr.időpont</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>234567xxxxxx2345 - 2020.05.14 17:44</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>74</FIELDNO1>
+            <DescName>Terminál - eng.kód  Trtip</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>60127375 - 128706 - vásár.</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>76</FIELDNO1>
+            <DescName>Elfogadó</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>Lidl Vertriebs  Bochum</DescValue>
+         </TrDescription>
+         <TrDescription>
+            <FIELDNO1>77</FIELDNO1>
+            <DescName>Tr.összeg - Árfolyam</DescName>
+            <DescNameENDE></DescNameENDE>
+            <DescValue>17.02 EUR -         17.02 EUR -  355.39 HUF/EUR</DescValue>
+         </TrDescription>
+         <TRANS_DATE>2020.05.22.</TRANS_DATE>
+         <TRANS_FXRATE></TRANS_FXRATE>
+         <EFFECT_DATE>2020.05.22.</EFFECT_DATE>
+         <REFERENCE></REFERENCE>
+         <DEBIT_AMT>-6.049</DEBIT_AMT>
+         <CREDIT_AMT>0</CREDIT_AMT>
+         <BALANCE>2.710.158</BALANCE>
+         <PREV_BALANCE>2.716.207</PREV_BALANCE>
+         <TR_TAX_AMT_HUF>(0,00)</TR_TAX_AMT_HUF>
+         <STMT_SEQ>3114857423</STMT_SEQ>
+         <SOURCE>IF</SOURCE>
+      </Transaction>
+      <Template>
+         <NAME>Erste Brand lakossági és mikro-vállalati folyószámla sablon</NAME>
+         <VERSION>23</VERSION>
+         <IDENTIFIER>201</IDENTIFIER>
+         <FILENAME></FILENAME>
+         <CLTYP>L</CLTYP>
+         <CLTYPE>L</CLTYPE>
+      </Template>
+      <Language>HU</Language>
+      <ReGenNo>0</ReGenNo>
+      <Stmt_Modified>0</Stmt_Modified>
+   </Statement>
+</ErsteBankStatements>
+

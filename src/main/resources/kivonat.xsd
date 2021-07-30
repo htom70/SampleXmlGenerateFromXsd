@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ErsteBankStatements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Setting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="BANK_NAME" type="xs:string" />
+              <xs:element name="BANK_POSTALCODE" type="xs:unsignedShort" />
+              <xs:element name="BANK_CITY" type="xs:string" />
+              <xs:element name="BANK_ADDRESS" type="xs:string" />
+              <xs:element name="TAXNR" type="xs:string" />
+              <xs:element name="VATGROUPNR" type="xs:string" />
+              <xs:element name="EUVATGROUPNR" type="xs:string" />
+              <xs:element name="FIRMCODE" type="xs:string" />
+              <xs:element name="INTERNETADDRESS" type="xs:string" />
+              <xs:element name="SWIFTCODE" type="xs:string" />
+              <xs:element name="PRIVATE_TEL" type="xs:string" />
+              <xs:element name="FIRM_TEL" type="xs:string" />
+              <xs:element name="EMAILADDRESS" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element maxOccurs="unbounded" name="Statement">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STMT_SEQ" type="xs:unsignedInt" />
+              <xs:element name="Statement_NO" type="xs:string" />
+              <xs:element name="MarketingAbove" />
+              <xs:element name="MarketingAboveENDE" />
+              <xs:element name="MarketingBelow1" />
+              <xs:element name="MarketingBelow1ENDE" />
+              <xs:element name="MarketingBelow2" />
+              <xs:element name="MarketingBelow2ENDE" />
+              <xs:element name="DormantMessage" />
+              <xs:element name="DormantMessageENDE" />
+              <xs:element name="FXTRM_CONTR_MSG" />
+              <xs:element name="FXTRM_CONTR_MSGENDE" />
+              <xs:element name="ORIGINAL" type="xs:unsignedByte" />
+              <xs:element name="NEXT_COPY" type="xs:unsignedByte" />
+              <xs:element name="OD_AMTSUM" type="xs:decimal" />
+              <xs:element name="OUTST_AMTSUM" type="xs:unsignedByte" />
+              <xs:element name="Account">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ACCT_TYPE" type="xs:string" />
+                    <xs:element name="ACCOUNT_NO" type="xs:string" />
+                    <xs:element name="ACCT_DESC" />
+                    <xs:element name="START_BALANCE" type="xs:string" />
+                    <xs:element name="END_BALANCE" type="xs:string" />
+                    <xs:element name="START_DATE" type="xs:string" />
+                    <xs:element name="END_DATE" type="xs:string" />
+                    <xs:element name="CURRENCY" type="xs:string" />
+                    <xs:element name="AVAIL_AMT" type="xs:string" />
+                    <xs:element name="AccountName" type="xs:string" />
+                    <xs:element name="AccountNameENDE" />
+                    <xs:element name="TotalDebit" type="xs:decimal" />
+                    <xs:element name="TotalCredit" type="xs:unsignedByte" />
+                    <xs:element name="TotalRestraintAmtPositive" type="xs:string" />
+                    <xs:element name="TotalRestraintAmtNegative" />
+                    <xs:element name="TotalRestraintAmt" type="xs:string" />
+                    <xs:element name="SUM_TR_TAX_AMT_HUF" type="xs:string" />
+                    <xs:element name="IBAN_CODE" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Client">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CLIENT_NO" type="xs:string" />
+                    <xs:element name="ROBINSON" type="xs:string" />
+                    <xs:element name="CLIENTNAME" type="xs:string" />
+                    <xs:element name="CLIENTADDR" type="xs:string" />
+                    <xs:element name="CLIENTEMAIL" />
+                    <xs:element name="POST_NAME" type="xs:string" />
+                    <xs:element name="POST_CITY" type="xs:string" />
+                    <xs:element name="POST_ADDR" type="xs:string" />
+                    <xs:element name="POST_CODE" type="xs:string" />
+                    <xs:element name="LPOST_CITY" type="xs:string" />
+                    <xs:element name="LPOST_ADDR" type="xs:string" />
+                    <xs:element name="LPOST_CODE" type="xs:unsignedShort" />
+                    <xs:element name="BRANCH" type="xs:string" />
+                    <xs:element name="BranchName" />
+                    <xs:element name="BranchCity" />
+                    <xs:element name="BranchAddr" />
+                    <xs:element name="BranchPostalcode" />
+                    <xs:element name="PDF_PASSW" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="Transaction">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TR_SEQ" type="xs:unsignedInt" />
+                    <xs:element name="TRANS_TYPE" type="xs:string" />
+                    <xs:element name="TRANS_DESC" type="xs:string" />
+                    <xs:element name="TRANS_DESCENDE" />
+                    <xs:element maxOccurs="unbounded" name="TrDescription">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="FIELDNO1" type="xs:unsignedByte" />
+                          <xs:element name="DescName" type="xs:string" />
+                          <xs:element name="DescNameENDE" />
+                          <xs:element name="DescValue" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="TRANS_DATE" type="xs:string" />
+                    <xs:element name="TRANS_FXRATE" />
+                    <xs:element name="EFFECT_DATE" type="xs:string" />
+                    <xs:element name="REFERENCE" />
+                    <xs:element name="DEBIT_AMT" type="xs:decimal" />
+                    <xs:element name="CREDIT_AMT" type="xs:unsignedByte" />
+                    <xs:element name="BALANCE" type="xs:string" />
+                    <xs:element name="PREV_BALANCE" type="xs:string" />
+                    <xs:element name="TR_TAX_AMT_HUF" type="xs:string" />
+                    <xs:element name="STMT_SEQ" type="xs:unsignedInt" />
+                    <xs:element name="SOURCE" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Overdraft">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OD_AMT" type="xs:decimal" />
+                    <xs:element name="OD_TYPE" type="xs:string" />
+                    <xs:element name="OD_DESC" type="xs:string" />
+                    <xs:element name="OD_DESCENDE" />
+                    <xs:element name="OUTST_AMT" type="xs:unsignedByte" />
+                    <xs:element name="EFFECT_DATE" type="xs:string" />
+                    <xs:element name="OD_INTRATE" />
+                    <xs:element name="OD_INTRATE_ENDE" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="OverdraftDesc">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="OD_INTDESC" type="xs:string" />
+                    <xs:element name="OD_INTDESCENDE" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="Restraint">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="RESTRAINT_DESC" type="xs:string" />
+                    <xs:element name="RESTRAINT_DESCENDE" />
+                    <xs:element name="PLEDGED_AMT" type="xs:decimal" />
+                    <xs:element name="NARRATIVE" />
+                    <xs:element name="START_DATE" type="xs:string" />
+                    <xs:element name="END_DATE" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Template">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="NAME" type="xs:string" />
+                    <xs:element name="VERSION" type="xs:unsignedByte" />
+                    <xs:element name="IDENTIFIER" type="xs:unsignedByte" />
+                    <xs:element name="FILENAME" />
+                    <xs:element name="CLTYP" type="xs:string" />
+                    <xs:element name="CLTYPE" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Language" type="xs:string" />
+              <xs:element name="ReGenNo" type="xs:unsignedByte" />
+              <xs:element name="Stmt_Modified" type="xs:unsignedByte" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
